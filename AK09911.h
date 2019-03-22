@@ -1,4 +1,12 @@
 
+#ifndef AK09911_H
+#define	AK09911_H
+
+#ifdef	__cplusplus
+extern "C" {
+#endif
+
+    
 /*
 Connections:
         3.3V <-> Vin
@@ -9,13 +17,7 @@ Connections:
         3.3V or Gnd <-> CAD  (see below)
  */
 
-#ifndef AK09911_H
-#define	AK09911_H
-
-#ifdef	__cplusplus
-extern "C" {
-#endif
-
+    
     typedef struct {
         int xMag;
         int yMag;
